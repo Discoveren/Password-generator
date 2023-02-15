@@ -2,9 +2,14 @@
 
 <br />
 
+<div>
+<img src="assets\05-javascript-challenge-demo.png" alt='A screentshot of the password generator app'
+</div>
+
+
 ## Website Link
 
-* 
+* https://discoveren.github.io/Password-generator/
 
 <br />
 
@@ -50,6 +55,12 @@ Thank you for using the Password Generator App!
    
 <br />
 
-<div>
-<img src="assets\05-javascript-challenge-demo.png" alt='A screentshot of the password generator app'
-</div>
+---
+
+## Copyright
+
+© 2023 fetchbook. All Rights Reserved.
+
+Licensed under the [MIT](LICENSE) license.
+
+
