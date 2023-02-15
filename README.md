@@ -32,6 +32,7 @@ Remember to never share your passwords with anyone, and to change them regularly
 Thank you for using the Password Generator App!
 
 <br />
+ 
 
 ## Methods
 
@@ -57,9 +58,7 @@ Thank you for using the Password Generator App!
 
 ---
 
-## Copyright
-
-© 2023 fetchbook. All Rights Reserved.
+## License
 
 Licensed under the [MIT](LICENSE) license.
 
