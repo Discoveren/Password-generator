@@ -120,7 +120,26 @@ console.log(arr)
 
 // Function to generate password with user input
 function generatePassword() {
-
+  var userOptions = getPasswordOptions()
+  console.log(userOptions)
+  var chosenCharacters = []
+  if (userOptions.upperCase) {
+    chosenCharacters = chosenCharacters.concat(upperCasedCharacters)
+  }
+  if (userOptions.lowerCase) {
+    chosenCharacters = chosenCharacters.concat(lowerCasedCharacters)
+  }
+  if (userOptions.special) {
+    chosenCharacters = chosenCharacters.concat(specialCharacters)
+  }
+  if (userOptions.numbers) {
+    chosenCharacters = chosenCharacters.concat(numericCharacters)
+  }
+  var generatedPassword = ''
+   for (var i = 0; i < userOptions.passwordLength; i++) {
+    generatedPassword += getRandom(chosenCharacters)
+   }
+   return generatedPassword
 }
 
 // Get references to the #generate element
