@@ -91,8 +91,27 @@ var upperCasedCharacters = [
 // Function to prompt user for password options
 function getPasswordOptions() {
 var passwordLength = parseInt(prompt("How long do you want your password?"));
+
+//if they pick less than 10 characters or more than 64 characters evaluate it falsy
+if (passwordLength < 10 || passwordLength > 64 || !passwordLength) {
+alert("Your password must be within 10 to 64 characters. Please try again.")
+generatePassword();
+return
 }
 
+var upperCase = confirm('Do you want uppercase characters?')
+var lowerCase = confirm('Do you want lowercase characters?')
+var numbers = confirm('Do you want numeric characters?')
+var special = confirm('Do you want special characters?')
+var options = {
+  passwordLength,
+  upperCase,
+  lowerCase,
+  numbers,
+  special
+}
+return options
+}
 // Function for getting a random element from an array
 function getRandom(arr) {
 
