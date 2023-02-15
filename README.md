@@ -29,6 +29,7 @@ Thank you for using the Password Generator App!
 <br />
 
 ## Methods
+
  -Several built-in methods are used in this code. Here are the methods used in each function:
    -parseInt() method is used to convert the user input for password length into an integer.
    -prompt() method is used to display a dialog box for the user to enter their password length.
